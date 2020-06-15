@@ -6,4 +6,3 @@ public class MainApplication {
         myObject.run();
     }
 }
-git a
