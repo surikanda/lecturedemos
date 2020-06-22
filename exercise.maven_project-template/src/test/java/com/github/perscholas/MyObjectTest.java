@@ -5,14 +5,15 @@ import org.junit.Test;
 
 public class MyObjectTest {
     @Test
-    public void testRun() { // TODO
-        // Given
-        MyObject myObject = new MyObject();
+    public void testRun() {
+        // given
+        Person person = new Person();
+        String expectedOutput = "Hello World";
 
         // when
-        myObject.run();
+        String output = person.speak();
 
-        //then
-        Assert.assertNotNull(myObject.toString());
+        // then
+        Assert.assertEquals(expectedOutput, output);
     }
 }
