@@ -1,0 +1,20 @@
+div {
+    text-align: center;
+    border: 2px dash red;
+    width: 800px;
+    height: 400px;
+}
+
+#div1 {
+    background-color: aqua;
+    float: left;
+}
+
+#div2 {
+    background-color: antiquewhite0;
+}
+
+#div3 {
+    background-color: blueviolet;
+    /* clear:both; */
+}
