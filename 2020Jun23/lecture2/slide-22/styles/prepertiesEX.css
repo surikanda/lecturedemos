@@ -6,13 +6,16 @@ div {
 }
 
 #div1 {
-    background-color: aqua;
+    background: linear-gradient(to left bottom, blue, pink);git
+    float: left;
 }
 
 #div2 {
     background-color: antiquewhite;
+    float: right;
 }
 
 #div3 {
     background-color: blueviolet;
+    clear:both;
 }
