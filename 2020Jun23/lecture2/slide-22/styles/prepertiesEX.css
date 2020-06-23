@@ -7,14 +7,12 @@ div {
 
 #div1 {
     background-color: aqua;
-    float: left;
 }
 
 #div2 {
-    background-color: antiquewhite0;
+    background-color: antiquewhite;
 }
 
 #div3 {
     background-color: blueviolet;
-    /* clear:both; */
 }
