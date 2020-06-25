@@ -27,21 +27,3 @@ li {
 .more {
     flex:2;
 }
-
-.menu_container
-.menu_item nav ul {
-    display: flex;
-}
-
-.menu_container
-.menu_item nav ul li a {
-    color: white;
-    padding: 21px 37px;
-    border-radius: 3px
-}
-
-.menu_container
-.menu_item nav ul li a:hover {
-    background-color: #becccf;
-    color: #1c1808
-}
