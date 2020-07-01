@@ -34,6 +34,7 @@ function printObjectDetailsAsKeyAndValue(someObject) {
 }
 
 
+
 let leon = new Person("Leon", "Hunter", ["Green", "Blue", "Gray"])
 leon.firstName = "Chris";
 
