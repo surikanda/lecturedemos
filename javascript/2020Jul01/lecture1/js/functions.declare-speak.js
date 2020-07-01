@@ -4,6 +4,7 @@ class Person {
         this.lastName = lastName;
         this.favoriteColors = favoriteColors;
     }
+    
 }
 
 
