@@ -16,6 +16,7 @@ function addFormListeners() {
         .addEventListener("submit", function() {
             alert(name.value);
         });
+
 }
 
 function addKeyboardListeners() {
