@@ -33,19 +33,63 @@ function configureXmlHttpRequest(request) {
     console.log("The readyState at this point is = " + request.readyState);
 }
 
-function updateDom(request) {
-    let someValue1;
+
+class Response {
+    constructor(id, authToken, body) {
+        this.id =id;
+        this.authToken = authToken;
+        this.body = body;
+    }
+}
+
+class Person {
+    constructor(fname, lname, birthdate) {
+        this.fname = fname;
+        this.lname = lname;
+        this.birthdate = birthdate;
+    }
+}
+
+let leon1 = new Person("Leon", "Hunter", "01/01/01");
+let leon2 = {
+    fname: "leon",
+    lname: "hunter",
+    birthdate: "01/01/01"
+};
+let leon3 = new Person(leon2);
+
+
+let haseeb1 = new Person("Muhammad", "Haseeb", "01/01/01");
+let haseeb2 = {
+    fname: "Muhammad",
+    lname: "Haseeb",
+    birthdate: "01/01/01"
+};
+
+
+
+function updateDom(response) {
+    let exepctedResponseBody = {
+        id: 0,
+        authToken: "83902312809adjldasjkl#$%^&adshjk13DBGAHSJ",
+        body: {
+            fname: "leon",
+            lname: "hunter",
+            birthdate: "01/01/01"
+        }
+    };
+
     let someValue2;
     let someValue3;
-    if(request == someValue1) {
+    if(response== exepctedResponseBody) {
         document.writeln("manipulation 1")
     }
 
-    if(request == someValue2) {
+    if(response == someValue2) {
         document.writeln("manipulation 2")
     }
 
-    if(request == someValue3) {
+    if(response == someValue3) {
         document.writeln("manipulation 2")
     }
 }
